@@ -43,7 +43,7 @@ void FreeConnect() {
 }
 
 //测试代码
-int main() {
-    ConnectMysql();
-    FreeConnect();
-}
+//int main() {
+//    ConnectMysql();
+//    FreeConnect();
+//}
