@@ -135,31 +135,31 @@ void MyPrint(void* data){
 
 }
 
-int main(){
-    //创建链表
-    LinkList *list = Init_LinkList();
-
-    //创建数据
-    Person p1 = {"aaa",18,100};
-    Person p2 = {"bbb",18,100};
-    Person p3 = {"ccc",18,100};
-    Person p4 = {"ddd",18,100};
-    Person p5 = {"eee",18,100};
-
-    //数据插入链表
-    Insert_LinkList(list,0,&p1);
-    Insert_LinkList(list,0,&p2);
-    Insert_LinkList(list,0,&p3);
-    Insert_LinkList(list,0,&p4);
-    Insert_LinkList(list,0,&p5);
-
-    //打印
-    Print_LinkList(list,MyPrint);
-    std::cout << "======================="<<std::endl;
-    std::cout<<Front_LinkList(list);
-    std::cout << "======================="<<std::endl;
-    RemoveByPos_LinkList(list,3);
-
-    Print_LinkList(list,MyPrint);
-    FreeSpace_Linklist(list);
-}
+//int main(){
+//    //创建链表
+//    LinkList *list = Init_LinkList();
+//
+//    //创建数据
+//    Person p1 = {"aaa",18,100};
+//    Person p2 = {"bbb",18,100};
+//    Person p3 = {"ccc",18,100};
+//    Person p4 = {"ddd",18,100};
+//    Person p5 = {"eee",18,100};
+//
+//    //数据插入链表
+//    Insert_LinkList(list,0,&p1);
+//    Insert_LinkList(list,0,&p2);
+//    Insert_LinkList(list,0,&p3);
+//    Insert_LinkList(list,0,&p4);
+//    Insert_LinkList(list,0,&p5);
+//
+//    //打印
+//    Print_LinkList(list,MyPrint);
+//    std::cout << "======================="<<std::endl;
+//    std::cout<<Front_LinkList(list);
+//    std::cout << "======================="<<std::endl;
+//    RemoveByPos_LinkList(list,3);
+//
+//    Print_LinkList(list,MyPrint);
+//    FreeSpace_Linklist(list);
+//}
